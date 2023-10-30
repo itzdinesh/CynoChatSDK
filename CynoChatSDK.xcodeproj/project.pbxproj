@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324063432AEF7C5000AD9D92 /* CynoChatSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 324063422AEF7C5000AD9D92 /* CynoChatSDK.docc */; };
+		324063492AEF7C5000AD9D92 /* CynoChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240633E2AEF7C5000AD9D92 /* CynoChatSDK.framework */; };
+		3240634E2AEF7C5000AD9D92 /* CynoChatSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3240634D2AEF7C5000AD9D92 /* CynoChatSDKTests.swift */; };
+		3240634F2AEF7C5000AD9D92 /* CynoChatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 324063412AEF7C5000AD9D92 /* CynoChatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E286C8FF467E102FCED702D /* Pods_CynoChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A890125539273245EF78FA2D /* Pods_CynoChatSDK.framework */; };
+		A1F66056432A8452191D9E2B /* Pods_CynoChatSDK_CynoChatSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52EC48C25CD54E37DD06609 /* Pods_CynoChatSDK_CynoChatSDKTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3240634A2AEF7C5000AD9D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324063352AEF7C5000AD9D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3240633D2AEF7C5000AD9D92;
+			remoteInfo = CynoChatSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E929F2928889CDC8054844B /* Pods-CynoChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CynoChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-CynoChatSDK/Pods-CynoChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		3240633E2AEF7C5000AD9D92 /* CynoChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CynoChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324063412AEF7C5000AD9D92 /* CynoChatSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CynoChatSDK.h; sourceTree = "<group>"; };
+		324063422AEF7C5000AD9D92 /* CynoChatSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CynoChatSDK.docc; sourceTree = "<group>"; };
+		324063482AEF7C5000AD9D92 /* CynoChatSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CynoChatSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3240634D2AEF7C5000AD9D92 /* CynoChatSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CynoChatSDKTests.swift; sourceTree = "<group>"; };
+		52CF1FFB92DDE2D34FFDC825 /* Pods-CynoChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CynoChatSDK.release.xcconfig"; path = "Target Support Files/Pods-CynoChatSDK/Pods-CynoChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		5E8D7886F832315CBF2DB7EA /* Pods-CynoChatSDK-CynoChatSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CynoChatSDK-CynoChatSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-CynoChatSDK-CynoChatSDKTests/Pods-CynoChatSDK-CynoChatSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A890125539273245EF78FA2D /* Pods_CynoChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CynoChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52EC48C25CD54E37DD06609 /* Pods_CynoChatSDK_CynoChatSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CynoChatSDK_CynoChatSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E4AD9AAF61EC1DF2B16635 /* Pods-CynoChatSDK-CynoChatSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CynoChatSDK-CynoChatSDKTests.release.xcconfig"; path = "Target Support Files/Pods-CynoChatSDK-CynoChatSDKTests/Pods-CynoChatSDK-CynoChatSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3240633B2AEF7C5000AD9D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E286C8FF467E102FCED702D /* Pods_CynoChatSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324063452AEF7C5000AD9D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324063492AEF7C5000AD9D92 /* CynoChatSDK.framework in Frameworks */,
+				A1F66056432A8452191D9E2B /* Pods_CynoChatSDK_CynoChatSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5178E413FE471FBC81C741 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E929F2928889CDC8054844B /* Pods-CynoChatSDK.debug.xcconfig */,
+				52CF1FFB92DDE2D34FFDC825 /* Pods-CynoChatSDK.release.xcconfig */,
+				5E8D7886F832315CBF2DB7EA /* Pods-CynoChatSDK-CynoChatSDKTests.debug.xcconfig */,
+				F1E4AD9AAF61EC1DF2B16635 /* Pods-CynoChatSDK-CynoChatSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		324063342AEF7C5000AD9D92 = {
+			isa = PBXGroup;
+			children = (
+				324063402AEF7C5000AD9D92 /* CynoChatSDK */,
+				3240634C2AEF7C5000AD9D92 /* CynoChatSDKTests */,
+				3240633F2AEF7C5000AD9D92 /* Products */,
+				1F5178E413FE471FBC81C741 /* Pods */,
+				B12DE8B82F1CF11F41FDC7D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3240633F2AEF7C5000AD9D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3240633E2AEF7C5000AD9D92 /* CynoChatSDK.framework */,
+				324063482AEF7C5000AD9D92 /* CynoChatSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324063402AEF7C5000AD9D92 /* CynoChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				324063412AEF7C5000AD9D92 /* CynoChatSDK.h */,
+				324063422AEF7C5000AD9D92 /* CynoChatSDK.docc */,
+			);
+			path = CynoChatSDK;
+			sourceTree = "<group>";
+		};
+		3240634C2AEF7C5000AD9D92 /* CynoChatSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				3240634D2AEF7C5000AD9D92 /* CynoChatSDKTests.swift */,
+			);
+			path = CynoChatSDKTests;
+			sourceTree = "<group>";
+		};
+		B12DE8B82F1CF11F41FDC7D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A890125539273245EF78FA2D /* Pods_CynoChatSDK.framework */,
+				B52EC48C25CD54E37DD06609 /* Pods_CynoChatSDK_CynoChatSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		324063392AEF7C5000AD9D92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3240634F2AEF7C5000AD9D92 /* CynoChatSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3240633D2AEF7C5000AD9D92 /* CynoChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324063522AEF7C5000AD9D92 /* Build configuration list for PBXNativeTarget "CynoChatSDK" */;
+			buildPhases = (
+				2F1F5F9960207A9039181466 /* [CP] Check Pods Manifest.lock */,
+				324063392AEF7C5000AD9D92 /* Headers */,
+				3240633A2AEF7C5000AD9D92 /* Sources */,
+				3240633B2AEF7C5000AD9D92 /* Frameworks */,
+				3240633C2AEF7C5000AD9D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CynoChatSDK;
+			productName = CynoChatSDK;
+			productReference = 3240633E2AEF7C5000AD9D92 /* CynoChatSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		324063472AEF7C5000AD9D92 /* CynoChatSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324063552AEF7C5000AD9D92 /* Build configuration list for PBXNativeTarget "CynoChatSDKTests" */;
+			buildPhases = (
+				88CF7D3D8670F7D29A789502 /* [CP] Check Pods Manifest.lock */,
+				324063442AEF7C5000AD9D92 /* Sources */,
+				324063452AEF7C5000AD9D92 /* Frameworks */,
+				324063462AEF7C5000AD9D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3240634B2AEF7C5000AD9D92 /* PBXTargetDependency */,
+			);
+			name = CynoChatSDKTests;
+			productName = CynoChatSDKTests;
+			productReference = 324063482AEF7C5000AD9D92 /* CynoChatSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324063352AEF7C5000AD9D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3240633D2AEF7C5000AD9D92 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					324063472AEF7C5000AD9D92 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 324063382AEF7C5000AD9D92 /* Build configuration list for PBXProject "CynoChatSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324063342AEF7C5000AD9D92;
+			productRefGroup = 3240633F2AEF7C5000AD9D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3240633D2AEF7C5000AD9D92 /* CynoChatSDK */,
+				324063472AEF7C5000AD9D92 /* CynoChatSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3240633C2AEF7C5000AD9D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324063462AEF7C5000AD9D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1F5F9960207A9039181466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CynoChatSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CF7D3D8670F7D29A789502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CynoChatSDK-CynoChatSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3240633A2AEF7C5000AD9D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324063432AEF7C5000AD9D92 /* CynoChatSDK.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324063442AEF7C5000AD9D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3240634E2AEF7C5000AD9D92 /* CynoChatSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3240634B2AEF7C5000AD9D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3240633D2AEF7C5000AD9D92 /* CynoChatSDK */;
+			targetProxy = 3240634A2AEF7C5000AD9D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		324063502AEF7C5000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324063512AEF7C5000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		324063532AEF7C5000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E929F2928889CDC8054844B /* Pods-CynoChatSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Dinesh.CynoChatSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324063542AEF7C5000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CF1FFB92DDE2D34FFDC825 /* Pods-CynoChatSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Dinesh.CynoChatSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		324063562AEF7C5000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8D7886F832315CBF2DB7EA /* Pods-CynoChatSDK-CynoChatSDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dinesh.CynoChatSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324063572AEF7C5000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E4AD9AAF61EC1DF2B16635 /* Pods-CynoChatSDK-CynoChatSDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dinesh.CynoChatSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324063382AEF7C5000AD9D92 /* Build configuration list for PBXProject "CynoChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324063502AEF7C5000AD9D92 /* Debug */,
+				324063512AEF7C5000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324063522AEF7C5000AD9D92 /* Build configuration list for PBXNativeTarget "CynoChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324063532AEF7C5000AD9D92 /* Debug */,
+				324063542AEF7C5000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324063552AEF7C5000AD9D92 /* Build configuration list for PBXNativeTarget "CynoChatSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324063562AEF7C5000AD9D92 /* Debug */,
+				324063572AEF7C5000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324063352AEF7C5000AD9D92 /* Project object */;
+}

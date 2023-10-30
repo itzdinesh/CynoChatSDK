@@ -1,0 +1,6 @@
+framework module Pods_CynoChatSDK_CynoChatSDKTests {
+  umbrella header "Pods-CynoChatSDK-CynoChatSDKTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
